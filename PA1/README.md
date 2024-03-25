@@ -1,6 +1,6 @@
 # Análisis de Ganancias de Deportistas
 
-Este proyecto realiza un análisis de las ganancias de deportistas en diferentes disciplinas. Utiliza datos de la lista de los atletas mejor pagados de la revista Forbes.
+Este proyecto realiza un análisis de las ganancias de deportistas en diferentes disciplinas utilizando datos de la lista de los atletas mejor pagados de la revista Forbes.
 
 ## Contenido
 
@@ -13,7 +13,7 @@ Este proyecto realiza un análisis de las ganancias de deportistas en diferentes
 
 ## Descripción
 
-El proyecto analiza las ganancias totales, las ganancias en el campo y las ganancias fuera del campo de los deportistas en diferentes deportes. Utiliza visualizaciones interactivas con Plotly Express para mostrar esta información de manera clara y concisa.
+El proyecto analiza las ganancias totales, las ganancias en el campo y las ganancias fuera del campo de los deportistas en diferentes deportes utilizando visualizaciones interactivas con Plotly Express para mostrar esta información de manera clara y concisa.
 
 ## Requisitos
 
@@ -31,8 +31,9 @@ pip install pandas plotly
 
 ## Uso
 
-1. Asegúrate de tener un conjunto de datos válido en formato CSV con la información de los deportistas y sus ganancias.
-2. Ejecuta el script principal para generar las visualizaciones:
+1. Asegúrate de tener un conjunto de datos válido en formato XLS con la información de los deportistas y sus ganancias.
+2. Utiliza el archivo forbes.xls que se encuentra en la carpeta del proyecto. Si el archivo está en otro formato, asegúrate de convertirlo a XLS antes de continuar.
+3. Ejecuta el script principal para generar las visualizaciones. Asegúrate de tener Python 3.x instalado en tu sistema y las bibliotecas requeridas ejecutando el siguiente comando:
 python main.py
 
 ## Contribución
